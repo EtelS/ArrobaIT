@@ -13,11 +13,49 @@ para usarlos por ej en el color de la letra usa "color: var(--main-white);" */
     --main-blue: #e1f4f3;
     --main-gray-soft: #f8f8f8
   }
-  header{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+.flex{
+   display: flex;
   }
-  h1{font-family: 'Righteous', cursive;}
-  p{font-family: 'Roboto', sans-serif;}
-  
+  .selfcenter{
+    align-self: center;
+  }
+  header{
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+  h1{
+    font-family: 'Righteous', cursive;
+    margin-bottom: 5%;
+    
+  }
+  p{
+    font-family: 'Roboto', sans-serif;
+    margin: 2%;
+  }
+  button{
+    background-color: #1883ba;
+    border-radius: 6px;
+    color: #ffffff;
+    flex-basis: 300px;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
+    height: 200px;
+    text-decoration: none;
+    padding: 10px;
+    }
+  button:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+    }
+  .botonera{
+     justify-content: space-around;
+    }
+.logoprinc{
+  margin: 5%;
+}
+.material-icons.md-48 { font-size: 48px; }
+/* .contacto{
+  flex-basis: ;
+} */
