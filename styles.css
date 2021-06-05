@@ -20,22 +20,25 @@ para usarlos por ej en el color de la letra usa "color: var(--main-white);" */
     align-self: center;
   }
   header{
+    background-color: transparent;
+    background-image: url("images/bg-image-13.webp");
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
   }
   h1{
     font-family: 'Righteous', cursive;
-    margin-bottom: 5%;
-    
+    margin-bottom: 5%; 
+    color: #ffffff;
   }
   p{
     font-family: 'Roboto', sans-serif;
     margin: 2%;
+    color: #ffffff;
   }
   button{
-    background-color: #1883ba;
-    border-radius: 6px;
+    background-color: rgba(80, 163, 189, 0.5);
+    border: none;
     color: #ffffff;
     flex-basis: 300px;
     font-weight: 600;
@@ -46,14 +49,14 @@ para usarlos por ej en el color de la letra usa "color: var(--main-white);" */
     padding: 10px;
     }
   button:hover{
-    color: #1883ba;
-    background-color: #ffffff;
+    color: #333333;
+    background-color: #54c9eb;
     }
   .botonera{
      justify-content: space-around;
     }
 .logoprinc{
-  margin: 5%;
+  margin: 4% 5% 0% 5%;
 }
 .material-icons.md-48 { font-size: 48px; }
 /* .contacto{
