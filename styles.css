@@ -1,0 +1,23 @@
+  
+/* asi reseteamos todos margins y paddings que el navegador agrega por defecto */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* De esta forma dejas establecidos los coleres que vas a usar en toda la pagina
+para usarlos por ej en el color de la letra usa "color: var(--main-white);" */
+:root {
+    --main-white: #ffffff;
+    --main-black: #333333;
+    --main-blue: #e1f4f3;
+    --main-gray-soft: #f8f8f8
+  }
+  header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  h1{font-family: 'Righteous', cursive;}
+  p{font-family: 'Roboto', sans-serif;}
+  
