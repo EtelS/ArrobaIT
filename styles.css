@@ -7,58 +7,92 @@
 }
 /* De esta forma dejas establecidos los coleres que vas a usar en toda la pagina
 para usarlos por ej en el color de la letra usa "color: var(--main-white);" */
-:root {
-    --main-white: #ffffff;
-    --main-black: #333333;
-    --main-blue: #e1f4f3;
-    --main-gray-soft: #f8f8f8
-  }
-.flex{
-   display: flex;
-  }
-  .selfcenter{
-    align-self: center;
-  }
-  header{
-    background-color: transparent;
-    background-image: url("images/bg-image-13.webp");
-    flex-wrap: nowrap;
-    flex-direction: column;
-    justify-content: center;
-  }
-  h1{
-    font-family: 'Righteous', cursive;
-    margin-bottom: 5%; 
-    color: #ffffff;
-  }
-  p{
-    font-family: 'Roboto', sans-serif;
-    margin: 2%;
-    color: #ffffff;
-  }
-  button{
+
+button{
     background-color: rgba(80, 163, 189, 0.5);
     border: none;
     color: #ffffff;
-    flex-basis: 300px;
     font-weight: 600;
     font-size: 20px;
     font-family: 'Righteous', cursive;
     height: 200px;
     text-decoration: none;
     padding: 10px;
+  }
+button:hover{
+      color: #333333;
+      background-color: #54c9eb;
+   }
+header{
+    background-color: transparent;
+    background-image: url("images/bg-image-13.webp");
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+h1{
+    font-family: 'Righteous', cursive;
+    font-size: 3em;
+  }
+h2{
+  font-family: 'Righteous', cursive;
+  margin: 2%;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+
+}
+.flex{
+     display: flex;
     }
-  button:hover{
-    color: #333333;
-    background-color: #54c9eb;
+.selfcenter{
+  align-self: center;
+  text-align: center;
+  color:#ffffff;
     }
-  .botonera{
-     justify-content: space-around;
-    }
+  .container{
+    justify-content: space-around;
+    padding: 5%;
+  }
+  .btn-header{
+    flex-basis: 300px;
+  }
+  .divisor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+  }
+  .divisor img{
+    align-self: baseline;
+  }
 .logoprinc{
   margin: 4% 5% 0% 5%;
 }
 .material-icons.md-48 { font-size: 48px; }
-/* .contacto{
-  flex-basis: ;
-} */
+.tercio{
+  width: 33%;
+  padding: 2%;
+}
+.tit-div{
+  margin: 3%;
+}
+#contacto{
+  margin: 1%;
+  height: 60px;
+}
+#informatica{
+  background-image: url("images/bg-image-2.jpg");
+  background-color: transparent;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+}
+#pinfor{
+  color: #2bc5fa;
+  font-family: 'Righteous', cursive;
+  font-size: 1.5em;
+  padding: 5%;
+  width: 80%;
+}
