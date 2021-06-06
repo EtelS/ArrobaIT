@@ -21,7 +21,7 @@ button{
   }
 button:hover{
       color: #333333;
-      background-color: #54c9eb;
+      background-color: #0385cf;
    }
 header{
     background-color: transparent;
@@ -62,6 +62,7 @@ p{
     flex-direction: row;
     flex-wrap: wrap;
     align-items: baseline;
+    background-color: #26145e;
   }
   .divisor img{
     align-self: baseline;
@@ -90,9 +91,25 @@ p{
   justify-content: center;
 }
 #pinfor{
-  color: #2bc5fa;
+  color: #26145e;
   font-family: 'Righteous', cursive;
   font-size: 1.5em;
   padding: 5%;
   width: 80%;
+}
+#seguridad{
+  background-color:#0385cf;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+}
+#internet{
+ 
+  background-image: url("images/bg-image-4.webp");
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+
 }
