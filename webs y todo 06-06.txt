@@ -1,0 +1,19 @@
+https://www.templatemonsterpreview.com/demo/56014.html
+https://www.myfonts.com/WhatTheFont/
+https://squoosh.app/
+https://htmlcolorcodes.com/es/
+https://developer.mozilla.org/es/docs/Learn/Forms/Your_first_form
+https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_forms_through_JavaScript
+it-swarm-es.com/es/javascript/como-enviar-un-correo-electronico-desde-javascript/940053518/
+https://qastack.mx/programming/7381150/how-to-send-an-email-from-javascript
+https://stackoverflow.com/questions/271171/sending-emails-with-javascript
+https://www.google.com/search?q=se+pueden+enviar+mensajes+de+email+a+gmail+con+node%3F&oq=se+pueden+enviar+mensajes+de+email+a+gmail+con+node%3F&aqs=chrome..69i57.13403j0j1&sourceid=chrome&ie=UTF-8
+
+https://cursos.mejorcodigo.net/article/enviar-correo-electronico-con-nodejs-17#:~:text=C%C3%B3mo%20Realizar%20el%20Env%C3%ADo%20de,de%20tu%20cuenta%20de%20Gmail.
+
+TO DO
+terminar div de contacto y footer
+elegir que textos iran
+generar mail al formulario
+adaptar movil
+SEO
