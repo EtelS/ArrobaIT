@@ -7,6 +7,9 @@
 }
 /* De esta forma dejas establecidos los coleres que vas a usar en toda la pagina
 para usarlos por ej en el color de la letra usa "color: var(--main-white);" */
+a{
+  text-decoration: none;
+}
 
 button{
     background-color: rgba(80, 163, 189, 0.5);
@@ -18,6 +21,7 @@ button{
     height: 200px;
     text-decoration: none;
     padding: 10px;
+    flex-basis: 300px;
   }
 button:hover{
       color: #333333;
@@ -56,6 +60,7 @@ p{
   }
   .btn-header{
     flex-basis: 300px;
+    display: flex;
   }
   .divisor{
     display: flex;
@@ -78,9 +83,22 @@ p{
 .tit-div{
   margin: 3%;
 }
-#contacto{
+#acontact{
+  display: flex;
+  flex-basis: 40px;
   margin: 1%;
-  height: 60px;
+}
+#btncontact{
+  /* margin: 1%; */
+  height: 50px;
+}
+#contacto{
+  background-image: url("images/Contacto.webp");
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+
 }
 #informatica{
   background-image: url("images/bg-image-2.jpg");
