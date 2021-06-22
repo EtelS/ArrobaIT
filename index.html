@@ -20,7 +20,7 @@
             <a href="#seguridad" class="btn-header"><button><span class="material-icons md-48">gpp_maybe</span> SEGURIDAD</button></a>
             <a href="#internet" class="btn-header"><button><span class="material-icons md-48">rss_feed</span> INTERNET</button></a>
         </div>
-        <a href="#contacto"class="selfcenter" id="acontact"><button  id="btncontact" ><span class="material-icons">groups</span> CONTACTO</button></a>
+        <a href="#contacto"class="selfcenter" id="acontact"><button  class="btncontact" ><span class="material-icons">groups</span> CONTACTO</button></a>
     </header>
     <div class="divisor">
         <img src="images/Camaras-1024x537.webp" alt="imagen decorativa de camaras de vigilancia" width="450px" height="250px" class="imgdiv">
@@ -57,26 +57,43 @@
     <div id="internet">
         <h1 class="selfcenter">INTERNET</h1>
         <div class="flex container">
-            <p class="selfcenter">Aca esto es importante</p>
-            <form action="https://submit-form.com/De3htceO">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" placeholder="Name" required="" />
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="Email" required="" />
-                <label for="message">Message</label>
-                <textarea
-                  id="message"
-                  name="message"
-                  placeholder="Message"
-                  required=""
-                ></textarea>
-                <button type="submit">Send</button>
-              </form>
+            <div class="medio">
+                <h1 class="selfcenter">VELOCIDADES DE 3, 6, 10 y 20 MB</h1>
+                <h1 class="selfcenter"><br>INTERNET EMPRESAS: 10MB DEDICADOS</h1>
+                <p class="selfcenter"><br>Se puede abonar en Rapipago o Pago Fácil, Homebanking, Red Link o Transferencia</p>
+            </div>
+                <form action="https://submit-form.com/De3htceO"
+                    accept-charset="UTF-8"
+                    enctype="multipart/form-data"
+                    method="POST"
+                    class="flex medio"
+                    id="formulario">
+                
+                    <p class="selfcenter">Contactenos por Whatsapp: <a href="https://wa.me/543516192619"> 3516192619</a> </p>
+                    <p class="selfcenter">O dejenos un mensaje y lo contactaremos a la brevedad</p>
+                    <input type="text" id="name" name="name" placeholder="Nombre y Apellido" required="" class="inputform"/>
+                    <input type="text" id="direccion" name="direccion" placeholder="Direccion" required=""class="inputform" />
+                    <input type="email" id="email" name="email" placeholder="Email" required="" class="inputform"/>
+                    <input type="text" id="telefono" name="telefono" placeholder="telefono de contacto" required="" class="inputform"/>
+                    <input type="hidden" name="_append" value="false"/>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        placeholder="Mensaje"
+                        required=""
+                        class="inputform"
+                    > </textarea>
+                    <button type="submit" class="btncontact" id="formcontact">Contactar</button>
+                </form> 
+            </div>
         </div>
     </div>
     <div id="contacto">
         <h1 class="selfcenter">CONTACTO</h1>
-        <h1> INDICAME ACA QUE TENDRIA QUE IR</h1>
+        <p>Puede encontrarnos personalmente en: </p>
+        <p>Manzana 82 Lote 11 Dúplex “C” o “3” de Barrio Jardines del Olmo - Ciudad de Córdoba</p>
+        
 
     </div>
     <footer>

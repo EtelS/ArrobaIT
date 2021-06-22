@@ -12,70 +12,87 @@ a{
 }
 
 button{
-    background-color: rgba(80, 163, 189, 0.5);
-    border: none;
-    color: #ffffff;
-    font-weight: 600;
-    font-size: 20px;
-    font-family: 'Righteous', cursive;
-    height: 200px;
-    text-decoration: none;
-    padding: 10px;
-    flex-basis: 300px;
+  background-color: rgba(80, 163, 189, 0.5);
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: 'Righteous', cursive;
+  height: 200px;
+  text-decoration: none;
+  padding: 10px;
+  flex-basis: 300px;
   }
 button:hover{
-      color: #333333;
-      background-color: #0385cf;
-   }
-header{
-    background-color: transparent;
-    background-image: url("images/bg-image-13.webp");
-    flex-wrap: nowrap;
-    flex-direction: column;
-    justify-content: center;
-  }
+  color: #333333;
+  background-color: #0385cf;
+}
 h1{
-    font-family: 'Righteous', cursive;
-    font-size: 3em;
+  font-family: 'Righteous', cursive;
+  font-size: 3em;
   }
 h2{
   font-family: 'Righteous', cursive;
   margin: 2%;
-}
+  }
+header{
+  background-color: transparent;
+  background-image: url("images/bg-image-13.webp");
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  }
 p{
-    font-family: 'Roboto', sans-serif;
-
+  font-family: 'Roboto', sans-serif;
+}
+.btncontact{
+  /* margin: 1%; */
+  height: 50px;
+}
+.btn-header{
+  flex-basis: 300px;
+  display: flex;
+}
+.container{
+  justify-content: space-around;
+  padding: 5%;
+}
+.divisor{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  background-color: #26145e;
+}
+.divisor img{
+  align-self: baseline;
 }
 .flex{
-     display: flex;
-    }
-.selfcenter{
-  align-self: center;
-  text-align: center;
-  color:#ffffff;
-    }
-  .container{
-    justify-content: space-around;
-    padding: 5%;
+  display: flex;
   }
-  .btn-header{
-    flex-basis: 300px;
-    display: flex;
-  }
-  .divisor{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: baseline;
-    background-color: #26145e;
-  }
-  .divisor img{
-    align-self: baseline;
-  }
+#formcontact{
+  border-radius: 10px;
+  flex-basis: 30px;
+  margin: 2%
+}
+.inputform{
+  border-radius: 10px;
+  margin: 1%;
+  padding:2%;
+}
 .logoprinc{
   margin: 4% 5% 0% 5%;
 }
 .material-icons.md-48 { font-size: 48px; }
+.medio{
+  width: 50%;
+  padding: 2%;
+}
+.selfcenter{
+  align-self: center;
+  text-align: center;
+  color:#ffffff;
+  }
 .tercio{
   width: 33%;
   padding: 2%;
@@ -88,16 +105,16 @@ p{
   flex-basis: 40px;
   margin: 1%;
 }
-#btncontact{
-  /* margin: 1%; */
-  height: 50px;
-}
 #contacto{
   background-image: url("images/Contacto.webp");
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
   justify-content: center;
+
+}
+#formulario{
+  flex-direction: column;
 
 }
 #informatica{
@@ -108,6 +125,7 @@ p{
   flex-direction: column;
   justify-content: center;
 }
+
 #pinfor{
   color: #26145e;
   font-family: 'Righteous', cursive;
