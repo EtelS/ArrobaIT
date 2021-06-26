@@ -27,6 +27,11 @@ button:hover{
   color: #333333;
   background-color: #0385cf;
 }
+footer{
+  padding: 2%;
+  background-color: #000000;
+  color: #ffffff;
+}
 h1{
   font-family: 'Righteous', cursive;
   font-size: 3em;
@@ -58,35 +63,40 @@ p{
   padding: 5%;
 }
 .divisor{
+  align-items: baseline;
+  background-color: #26145e;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: baseline;
-  background-color: #26145e;
 }
 .divisor img{
   align-self: baseline;
 }
+.divradio{
+  margin: 1%;
+}
 .flex{
   display: flex;
   }
-#formcontact{
-  border-radius: 10px;
-  flex-basis: 30px;
-  margin: 2%
-}
 .inputform{
   border-radius: 10px;
   margin: 1%;
   padding:2%;
-}
+  }
 .logoprinc{
   margin: 4% 5% 0% 5%;
-}
+  }
 .material-icons.md-48 { font-size: 48px; }
 .medio{
   width: 50%;
   padding: 2%;
+}
+.pcontact{
+  margin: 0% 1% 1% 2%;
+}
+.radio{
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
 }
 .selfcenter{
   align-self: center;
@@ -96,30 +106,40 @@ p{
 .tercio{
   width: 33%;
   padding: 2%;
-}
+  }
 .tit-div{
   margin: 3%;
-}
+  }
 #acontact{
   display: flex;
   flex-basis: 40px;
   margin: 1%;
-}
+  }
 #contacto{
   background-image: url("images/Contacto.webp");
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
   justify-content: center;
-
-}
+  }
+#formcontact{
+  border-radius: 10px;
+  flex-basis: 30px;
+  margin: 2%
+  }
 #formulario{
   flex-direction: column;
-
 }
 #informatica{
   background-image: url("images/bg-image-2.jpg");
   background-color: transparent;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+}
+#internet{
+  background-image: url("images/bg-image-4.webp");
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
@@ -139,13 +159,4 @@ p{
   flex-wrap: nowrap;
   flex-direction: column;
   justify-content: center;
-}
-#internet{
- 
-  background-image: url("images/bg-image-4.webp");
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: column;
-  justify-content: center;
-
 }
