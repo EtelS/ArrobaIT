@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* background-color: #000000; */
 }
 /* De esta forma dejas establecidos los coleres que vas a usar en toda la pagina
 para usarlos por ej en el color de la letra usa "color: var(--main-white);" */
@@ -154,9 +155,16 @@ p{
   width: 80%;
 }
 #seguridad{
-  background-color:#0385cf;
+  background-image:url("images/camaras-seguridad-iot.webp");
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
   justify-content: center;
+}
+
+@media (min-width: 1025px){
+  body{
+    width: 1500px;
+    align-items: center;
+  }
 }
