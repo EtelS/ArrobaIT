@@ -10,6 +10,7 @@
 para usarlos por ej en el color de la letra usa "color: var(--main-white);" */
 a{
   text-decoration: none;
+  color: #f3f707;
 }
 
 button{
@@ -44,6 +45,7 @@ h2{
 header{
   background-color: transparent;
   background-image: url("images/bg-image-13.webp");
+  background-size: cover;
   flex-wrap: nowrap;
   flex-direction: column;
   justify-content: center;
@@ -64,14 +66,15 @@ p{
   padding: 5%;
 }
 .divisor{
-  align-items: baseline;
-  background-color: #26145e;
+  align-items: center;
+  background-color: #000000;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .divisor img{
-  align-self: baseline;
+  align-self: center;
 }
 .divradio{
   margin: 1%;
@@ -118,6 +121,7 @@ p{
   }
 #contacto{
   background-image: url("images/Contacto.webp");
+  background-size: 100%;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
@@ -154,17 +158,52 @@ p{
   padding: 5%;
   width: 80%;
 }
+#pseg{
+  color: #26145e;
+  font-family: 'Righteous', cursive;
+  font-size: 1.25em;
+  padding: 5%;
+  width: 50%;
+}
 #seguridad{
   background-image:url("images/camaras-seguridad-iot.webp");
+  background-size: 100%;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
   justify-content: center;
 }
 
-@media (min-width: 1025px){
-  body{
-    width: 1500px;
-    align-items: center;
+@media (max-width: 600px){
+  .none{
+    display: none;
+  }
+  .mcenter{
+    flex-direction: column;
+  }
+  .tercio{
+    width: 100%;
+    padding: 2%;
+    }
+  .medio{
+    width: 100%;
+  }
+  #contacto{
+    background: #928888;
+  }
+  #minfor{
+    font-size: 2.5em;
+  }
+  #seguridad{
+    background-image: url("images/network-4851120_1280.webp");
+    background-size: 100%;
+  } 
+  #pinfor{
+    color: #ffffff;
+    width: 100%;
+  }
+  #pseg{
+    color: #ffffff;
+    width: 100%;
   }
 }
