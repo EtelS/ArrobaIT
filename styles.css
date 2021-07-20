@@ -50,7 +50,7 @@ header{
   flex-direction: column;
   justify-content: center;
   }
-p{
+p, li{
   font-family: 'Roboto', sans-serif;
 }
 .btncontact{
@@ -98,6 +98,9 @@ p{
 .pcontact{
   margin: 0% 1% 1% 2%;
 }
+.promo{
+  font-size: 3em;
+}
 .radio{
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
@@ -111,6 +114,10 @@ p{
   width: 33%;
   padding: 2%;
   }
+.terminos{
+  font-size: 0.75em;
+  color: #928888;
+}
 .tit-div{
   margin: 3%;
   }
