@@ -13,6 +13,4 @@ Esta es una pagina institucional para el dominio http://arroba-cba.com.ar/ actua
 
 ### Tecnologías
 ***
-Se utiliza solo CSS3 y HTML5.
-Update: se instaló Node para poder utilizar express (https://expressjs.com/es/) npara hacer un servidor y poder usar nodemailer (https://nodemailer.com/about/) para poder enviar el formulario de alta de internet al cliente directamente y dotenv (https://www.npmjs.com/package/dotenv) para configurar las variables de entorno del correo electronico
-
+Se utiliza solo CSS3 y HTML5

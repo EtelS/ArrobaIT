@@ -1,11 +1,10 @@
 
 const contactoFormulario= document.querySelector('#formulario')
 
-
-
 contactoFormulario.addEventListener('submit', (e)=>{
-    document.getElementById("formcontact").textContent="aguarde por favor"
+    
     e.preventDefault();
+    document.getElementById("formcontact").textContent="aguarde por favor"
     let datosformulario= {
         name: name.value,
         direccion: direccion.value,
