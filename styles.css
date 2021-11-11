@@ -6,11 +6,9 @@
   box-sizing: border-box;
   /* background-color: #000000; */
 }
-/* De esta forma dejas establecidos los coleres que vas a usar en toda la pagina
-para usarlos por ej en el color de la letra usa "color: var(--main-white);" */
 a{
   text-decoration: none;
-  color: #f3f707;
+  color: #0385cf;
 }
 
 button{
@@ -61,6 +59,13 @@ p, li{
   flex-basis: 300px;
   display: flex;
 }
+.cabecera{
+  background-color: black;
+  color: #ffffff;
+  align-items: stretch;
+  justify-content: space-around;
+  padding: 1%;
+}
 .container{
   justify-content: space-around;
   padding: 5%;
@@ -88,44 +93,99 @@ p, li{
   padding:2%;
   }
 .logoprinc{
-  margin: 4% 5% 0% 5%;
+  margin: 4% 0% 0% 20%;
   }
+.margen{
+  margin-top: 15%;
+}
 .material-icons.md-48 { font-size: 48px; }
 .medio{
   width: 50%;
   padding: 2%;
 }
+.my-float{
+  margin-top:16px;
+}
 .pcontact{
   margin: 0% 1% 1% 2%;
+  color: #FFF;
 }
 .promo{
   font-size: 3em;
 }
 .radio{
   color: #ffffff;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Righteous', cursive;;
 }
 .selfcenter{
   align-self: center;
   text-align: center;
   color:#ffffff;
   }
-.tercio{
-  width: 33%;
-  padding: 2%;
+  .setentaycinco{
+    width: 75%;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 2%; */
   }
-.terminos{
-  font-size: 0.75em;
-  color: #928888;
-}
+  .spacecenter{
+    text-align: center;
+    color:#ffffff;
+  }
+  .tercio{
+    width: 33%;
+    padding: 2%;
+  }
+  .terminos{
+    font-size: 0.75em;
+    color: #928888;
+  }
+  .titular{
+    /* justify-content: space-between; */
+    text-align: center;
+    color:#ffffff;
+  }
 .tit-div{
   margin: 3%;
-  }
+}
+.wafloat{
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  box-shadow: 2px 2px 3px #000000;
+  z-index:100;
+}
+.wafloat:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color:#fff;
+}
+
 #acontact{
   display: flex;
   flex-basis: 40px;
   margin: 1%;
-  }
+}
+#aform{
+  text-shadow: 1px 1px 2px #000;
+}
+#btncabecera{
+  background-color: black;
+  border: none;
+  color: #ffffff;
+  font-size: 1.25em;
+  font-family: 'Righteous', cursive;
+  height: 20px;
+  text-decoration: none;
+  padding: 0px;
+}
 #contacto{
   background-image: url("images/Contacto.webp");
   background-size: 100%;
@@ -157,29 +217,40 @@ p, li{
   flex-direction: column;
   justify-content: center;
 }
-
+#pcabecera{
+ height: 20px;
+ padding-top: 0.75%;
+}
 #pinfor{
   color: #26145e;
   font-family: 'Righteous', cursive;
   font-size: 1.5em;
   padding: 5%;
+  text-shadow: 1px 1px 2px #FFF;
   width: 80%;
 }
 #pseg{
   color: #26145e;
   font-family: 'Righteous', cursive;
   font-size: 1.25em;
-  padding: 5%;
-  width: 50%;
+  /* padding: 5%; */
+  /* width: 50%; */
 }
 #seguridad{
-  background-image:url("images/camaras-seguridad-iot.webp");
-  background-size: 100%;
+  /* background-image:url("images/camaras-seguridad-iot.webp");
+  background-size: 100%; */
   display: flex;
-  flex-wrap: nowrap;
-  flex-direction: column;
-  justify-content: center;
+  /* flex-wrap: nowrap; */
+  /* flex-direction: column; */
+  justify-content: space-around;
 }
+#tit-seguridad{
+  color: #000000;
+}
+#tit-cont{
+  text-shadow: 1px 1px 2px #000000;
+}
+
 
 @media (max-width: 600px){
   .none{
