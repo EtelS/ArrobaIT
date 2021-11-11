@@ -10,6 +10,9 @@ a{
   text-decoration: none;
   color: #0385cf;
 }
+a:hover{
+  color: #FFF
+}
 
 button{
   background-color: rgba(80, 163, 189, 0.5);
